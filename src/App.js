@@ -1,4 +1,3 @@
-import "./App.css";
 import React, { useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Products from "./Components/Products/Products";
