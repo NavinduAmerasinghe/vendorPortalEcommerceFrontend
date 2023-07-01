@@ -18,7 +18,23 @@ function Products() {
       <div className="wrapper">
         <div className="d-flex align-items-center justify-content-between">
           <div className="d-flex flex-column">
-            <div className="h3">PRODUCTS</div>
+            <div
+              className="h3"
+              style={{
+                width: "349px",
+                height: "56px",
+                padding: "15px",
+                borderRadius: "10px",
+                display: "flex",
+                alignItems: "center",
+                gap: "10px",
+                fontSize: "24px",
+                fontWeight: "bold",
+                backgroundColor: "#f0f0f0",
+              }}
+            >
+              PRODUCTS
+            </div>
           </div>
         </div>
         <div class="row">
@@ -60,7 +76,7 @@ function Products() {
                     PRODUCT NAME
                   </th>
                   <th scope="col" className="text-uppercase">
-                    PRICE
+                    QUANTITY
                   </th>
                 </tr>
               </thead>
