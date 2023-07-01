@@ -1,10 +1,15 @@
 import "./App.css";
+import React, { useEffect } from "react";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Products from "./Components/Products/Products";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Learn React</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/products" element={<Products />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
